@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dribbbo</string>
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_likes">Likes</string>
+    <string name="drawer_menu_buckets">Buckets</string>
+    <string name="shot_image">Shot image</string>
+    <string name="title_home">Dribbbo</string>
+    <string name="title_likes">Likes</string>
+    <string name="title_buckets">Buckets</string>
+
+
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="like">Like</string>
+    <string name="bucket">Bucket</string>
+    <string name="share">Share</string>
+    <string name="shot_author_picture">Shot author picture</string>
+    <string name="activity_login_icon">Dribbble icon</string>
+    <string name="activity_login_btn_text">Log into Dribbble</string>
+    <string name="user_profile_picture">User profile picture</string>
+    <string name="logout">Logout</string>
+    <string name="shot_count">{0,choice,0#0 shot|1#1 shot|1&lt;{0} shots}</string>
+    <string name="new_bucket_name">Bucket name</string>
+    <string name="new_bucket_description">Bucket description</string>
+    <string name="dialog_title">Create new bucket</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_save">Save</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shengz.dribbbo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".FrescoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.ShotDetail.ShotDetailActivity" />
+        <activity android:name=".view.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OAuth.AuthActivity" />
+        <activity android:name=".view.bucket_list.BucketDetailActivity" />
+        <activity android:name=".view.bucket_list.BucketListActivity"></activity>
+    </application>
+
+</manifest>
